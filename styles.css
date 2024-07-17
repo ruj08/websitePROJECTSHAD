@@ -12,6 +12,11 @@ header {
     text-align: center;
 }
 
+@font-face {
+    font-family: Bauhaus;  
+    src: url(BauhausBold.ttf);
+  }
+
 nav ul {
     list-style-type: none;
     margin: 0;
