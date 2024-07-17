@@ -1,5 +1,7 @@
+@import url(BauhausBold.ttf);
+
 body {
-    font-family: 'Bauhaus', Fallback, sans-serif;
+    font-family: 'BauhausBold', sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgb(245,245,220);
@@ -10,10 +12,6 @@ header {
     color: white;
     padding: 1em 0;
     text-align: center;
-}
-@font-face { 
-    font-family: Bauhaus; 
-    src: url('BauhausBold.ttf') format('truetype'); 
 } 
 
 nav ul {
