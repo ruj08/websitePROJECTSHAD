@@ -12,11 +12,6 @@ header {
     text-align: center;
 }
 
-@font-face {
-    font-family: 'Bauhaus'; /*a name to be used later*/
-    src: url('BauhausBold.ttf'); /*URL to font*/
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
