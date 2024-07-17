@@ -1,5 +1,5 @@
 body {
-    font-family: 'Bauhaus',sans-serif;
+    font-family: 'Bauhaus', Fallback, sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgb(245,245,220);
@@ -11,11 +11,10 @@ header {
     padding: 1em 0;
     text-align: center;
 }
-
-@font-face {
-    font-family: Bauhaus;  
-    src: url(BauhausBold.ttf);
-  }
+@font-face { 
+    font-family: Bauhaus; 
+    src: url('BauhausBold.ttf') format('truetype'); 
+} 
 
 nav ul {
     list-style-type: none;
